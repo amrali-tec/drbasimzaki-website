@@ -1,0 +1,603 @@
+{
+  "doctor": {
+    "name": "أ.د. باسم محمد زكي",
+    "nameEn": "Prof. Dr. Basim Mohamed Zaki",
+    "title": "أستاذ جراحة التجميل بكلية الطب - جامعة عين شمس",
+    "titleEn": "Professor of Plastic Surgery, Faculty of Medicine - Ain Shams University",
+    "subTitle": "استشاري جراحة التجميل والإصلاح وتنسيق القوام",
+    "subTitleEn": "Consultant Plastic, Reconstructive & Body Sculpting Surgeon",
+    "bio": "أستاذ جراحة التجميل بكلية الطب جامعة عين شمس، ورئيس مجلس إدارة كايرو كوزمو سنتر. يمتلك خبرة واسعة في إجراء أحدث جراحات نحت القوام بالفيزر، شد الترهلات، جراحات تجميل الثدي والوجه، وتطبيق أحدث التقنيات العالمية للوصول لأفضل النتائج الطبيعية والآمنة.",
+    "bioEn": "Professor of Plastic Surgery at Ain Shams University Faculty of Medicine and Chairman of Cairo Cosmo Center. With over 22 years of surgical expertise in 4D Vaser Body Sculpting, Tummy Tuck, Breast Augmentation/Lift, Rhinoplasty, and Facelift, achieving natural, safe, and long-lasting aesthetic results.",
+    "experienceYears": 22,
+    "surgeriesCount": 8500,
+    "satisfactionRate": 99,
+    "phones": [
+      "01201134051",
+      "01012710004",
+      "01284237835"
+    ],
+    "whatsapp": "201201134051",
+    "email": "info@drbasimzaki.com",
+    "facebook": "https://www.facebook.com/DrBasimZaki",
+    "instagram": "https://www.instagram.com/drbasimzaki/",
+    "youtube": "https://www.youtube.com/results?search_query=Dr.+Basim+Zaki",
+    "clinics": [
+      {
+        "id": "c1",
+        "name": "فرع مدينة نصر (المقر الرئيسي)",
+        "nameEn": "Nasr City Branch (Headquarters)",
+        "address": "39 شارع شمس الدين الذهبي، أرض الجولف، مدينة نصر، القاهرة",
+        "addressEn": "39 Shams El-Din El-Zahaby St., Ard El-Golf, Nasr City, Cairo",
+        "workHours": "الأحد والأربعاء: 5:00 م - 9:00 م",
+        "workHoursEn": "Sunday & Wednesday: 5:00 PM - 9:00 PM",
+        "phone": "01201134051",
+        "mapLink": "https://maps.google.com"
+      },
+      {
+        "id": "c2",
+        "name": "فرع مصر الجديدة",
+        "nameEn": "Heliopolis Branch",
+        "address": "شارع الميرغني، مصر الجديدة، القاهرة",
+        "addressEn": "El-Merghany St., Heliopolis, Cairo",
+        "workHours": "السبت والثلاثاء: 4:00 م - 8:00 م",
+        "workHoursEn": "Saturday & Tuesday: 4:00 PM - 8:00 PM",
+        "phone": "01012710004",
+        "mapLink": "https://maps.google.com"
+      },
+      {
+        "id": "c3",
+        "name": "فرع الدقي",
+        "nameEn": "Dokki Branch",
+        "address": "شارع مصدق، الدقي، الجيزة",
+        "addressEn": "Mossadak St., Dokki, Giza",
+        "workHours": "الإثنين والخميس: 5:00 م - 9:00 م",
+        "workHoursEn": "Monday & Thursday: 5:00 PM - 9:00 PM",
+        "phone": "01284237835",
+        "mapLink": "https://maps.google.com"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "body-sculpting",
+      "slug": "body-sculpting",
+      "title": "جراحات ونحت وتنسيق القوام",
+      "titleEn": "Body Sculpting & Liposuction",
+      "description": "أحدث تقنيات الفيزر والجي بلازما لنحت عضلات الجسم وشد الترهلات بدون ألم.",
+      "descriptionEn": "Advanced 4D Vaser and J-Plasma techniques for precision muscle sculpting and painless skin tightening.",
+      "icon": "Activity"
+    },
+    {
+      "id": "breast-surgery",
+      "slug": "breast-surgery",
+      "title": "جراحات وتجميل الثدي",
+      "titleEn": "Breast Aesthetic Surgeries",
+      "description": "عمليات تكبير، تصغير، ورفع الثدي بأفضل المعايير الطبية العالمية.",
+      "descriptionEn": "Breast Augmentation with silicone implants, Breast Reduction, and Mastopexy Breast Lift.",
+      "icon": "Heart"
+    },
+    {
+      "id": "facial-rhinoplasty",
+      "slug": "facial-rhinoplasty",
+      "title": "جراحات الوجه والأنف",
+      "titleEn": "Facial & Rhinoplasty Surgeries",
+      "description": "تجميل الأنف، شد الوجه والرقبة، وإعادة الشباب للوجه بأساليب جراحية متطورة.",
+      "descriptionEn": "Precision Rhinoplasty, Facelift & Necklift restoring youthful natural facial contours.",
+      "icon": "Sparkles"
+    },
+    {
+      "id": "mens-aesthetics",
+      "slug": "mens-aesthetics",
+      "title": "جراحات التجميل للرجال",
+      "titleEn": "Male Plastic Surgeries",
+      "description": "علاج التثدي لدى الرجال ونحت عضلات البطن (Six Packs) وزراعة الشعر.",
+      "descriptionEn": "Male Gynecomastia treatment, Six-Pack abdominal sculpting, and masculine contouring.",
+      "icon": "UserCheck"
+    },
+    {
+      "id": "non-surgical",
+      "slug": "non-surgical",
+      "title": "التجميل غير الجراحي",
+      "titleEn": "Non-Surgical Aesthetics",
+      "description": "حقن الفيلر والبوتوكس، خيوط شد الوجه، وتجديد نضارة البشرة.",
+      "descriptionEn": "Botox, Filler injections, Thread lifts, and skin rejuvenation treatments.",
+      "icon": "Smile"
+    }
+  ],
+  "services": [
+    {
+      "id": "vaser-liposuction",
+      "slug": "vaser-liposuction",
+      "categorySlug": "body-sculpting",
+      "title": "شفط الدهون بالفيزر ونحت الجسم",
+      "titleEn": "4D Vaser Liposuction & Body Sculpting",
+      "image": "/services/vaser-liposuction.jpg",
+      "shortDescription": "تخلص من الدهون المستعصية ونحت تفاصيل الجسم بدقة عالية باستخدام الموجات فوق الصوتية Vaser.",
+      "shortDescriptionEn": "Eliminate stubborn fat and sculpt high-definition body contours using ultrasonic Vaser 4D technology.",
+      "fullDescription": "تعتبر تقنية شفط الدهون بالفيزر (Vaser Lipo) أحدث الطرق العالمية لنحت القوام وإذابة الدهون العميقة والسطحية بدقة فائقة دون إلحاق الأذى بالأنسجة المحيطة أو الأوعية الدموية. تتيح هذه التقنية نحت العضلات وإبراز معالم الجسم الطبيعية مع سرعة التعافي.",
+      "fullDescriptionEn": "Vaser 4D Liposuction is the gold-standard ultrasound technology for melting deep and superficial fat while preserving surrounding tissues and blood vessels. It enables precise muscle definition, skin tightening, and rapid recovery.",
+      "benefits": [
+        "إذابة الدهون المستعصية بدقة متناهية",
+        "تحفيز إنتاج الكولاجين لشد الجلد",
+        "فترة تعافي قصيرة وأقل قدر من الكدمات",
+        "نتائج طبيعية ومستمرة مع الحفاظ على الوزن"
+      ],
+      "benefitsEn": [
+        "Precision targeted stubborn fat melting",
+        "Collagen stimulation for natural skin tightening",
+        "Short recovery time with minimal bruising",
+        "Long-lasting natural body contours"
+      ],
+      "metaTitle": "شفط الدهون بالفيزر في مصر | أ.د. باسم زكي استشاري التجميل",
+      "metaDescription": "احصل على قوام متناسق ومشدود مع عمليات شفط الدهون بالفيزر ونحت الجسم بأحدث التقنيات مع أ.د. باسم زكي أستاذ جراحة التجميل بجامعة عين شمس.",
+      "focusKeywords": "شفط الدهون بالفيزر, نحت الجسم, سعر الفيزر في مصر, دكتور تجميل مدينة نصر",
+      "faqs": [
+        {
+          "question": "هل تسبب عملية شفط الدهون بالفيزر أي ألم؟",
+          "questionEn": "Is Vaser Liposuction painful?",
+          "answer": "تتم العملية تحت تأثير التخدير المناسب، ويكون الألم بعد العملية خفيفاً ويتم السيطرة عليه بالكامل بالمسكنات المعتادة.",
+          "answerEn": "The surgery is performed under appropriate anesthesia. Post-operative discomfort is mild and easily managed with prescribed routine pain relievers."
+        },
+        {
+          "question": "متى تظهر نتائج شفط الدهون بالفيزر؟",
+          "questionEn": "When will I see the final Vaser results?",
+          "answer": "تظهر النتائج الأولية فوراً بعد العملية، وتكتمل الصورة النهائية خلال 4 إلى 8 أسابيع بعد زوال التورم الطبيعي.",
+          "answerEn": "Initial results are visible immediately post-op, while full final body contours manifest within 4 to 8 weeks as natural swelling subsides."
+        }
+      ]
+    },
+    {
+      "id": "tummy-tuck",
+      "slug": "tummy-tuck",
+      "categorySlug": "body-sculpting",
+      "title": "شد البطن وإصلاح العضلات (Tummy Tuck)",
+      "titleEn": "Tummy Tuck & Muscle Repair",
+      "image": "/services/tummy-tuck.jpg",
+      "shortDescription": "إزالة الجلد المترهل وإصلاح انفصال عضلات البطن بعد التكميم أو الولادات المتكررة.",
+      "shortDescriptionEn": "Remove sagging skin and repair separated abdominal muscles post-pregnancy or massive weight loss.",
+      "fullDescription": "عملية شد البطن (Tummy Tuck) تهتم بالتخلص من الترهلات الجلدية والدهون المستعصية في منطقة البطن، بالإضافة إلى إعادة خياطة وشد العضلات المتباعدة الناتجة عن الحمل والولادة أو فقدان الوزن الشديد، للحصول على بطن مفرودة ومشدودة تماماً.",
+      "fullDescriptionEn": "Abdominoplasty (Tummy Tuck) eliminates excess loose skin and stubborn fat while tightening separated abdominal muscles (diastasis recti) for a flat, firm, and sculpted midsection.",
+      "benefits": [
+        "التخلص النهائى من الجلد المترهل والترهلات المستعصية",
+        "تقوية وإصلاح عضلات البطن المنفصلة",
+        "تحديد منطقة الخصر بشكل جذاب",
+        "نتائج دائمة ومثالية"
+      ],
+      "benefitsEn": [
+        "Complete removal of loose sagging abdominal skin",
+        "Tightening and repair of separated abdominal wall muscles",
+        "Creation of an attractive defined waistline",
+        "Permanent, life-changing body transformation"
+      ],
+      "metaTitle": "عملية شد البطن في مصر | أ.د. باسم زكي جراحة التجميل",
+      "metaDescription": "استعيدي مظهر بطنك المشدود والتخلص من الترهلات بعد الولادة مع أ.د. باسم زكي استشاري التجميل بجامعة عين شمس.",
+      "focusKeywords": "شد البطن, عملية شد الترهلات, Tummy Tuck مصر",
+      "faqs": [
+        {
+          "question": "كم تستغرق فترة التعافي بعد شد البطن؟",
+          "questionEn": "How long is recovery after Tummy Tuck?",
+          "answer": "يمكن العودة للأنشطة اليومية الخفيفة خلال 10-14 يوماً، مع الالتزام برداء المشد الطبي (الكورسيه).",
+          "answerEn": "Light daily activities can be resumed within 10-14 days while wearing the medical compression garment."
+        }
+      ]
+    },
+    {
+      "id": "j-plasma-renuvion",
+      "slug": "j-plasma-renuvion",
+      "categorySlug": "body-sculpting",
+      "title": "شد الجلد بتقنية الجي بلازما (J-Plasma)",
+      "titleEn": "J-Plasma Skin Tightening",
+      "image": "/Photos/5.jpeg",
+      "shortDescription": "شد الترهلات المتوسطة والخفيفة باستخدام طاقة البلازما الباردة دون الحاجة لشق جراحي كبير.",
+      "shortDescriptionEn": "Tighten loose skin using cold plasma energy (Renuvion) without large surgical incisions.",
+      "fullDescription": "تقنية الجي بلازما (J-Plasma / Renuvion) تعتمد على الجمع بين غاز الهيليوم وطاقة الراديو فريكونسي للانكماش الفوري لألياف الجلد وتحفيز الكولاجين لشد الترهلات الجسدية فورياً.",
+      "fullDescriptionEn": "J-Plasma (Renuvion) combines cold helium gas with RF energy to instantly contract subdermal skin fibers and stimulate collagen production.",
+      "benefits": [
+        "شد فوري للجلد المترهل",
+        "بدون ندبات جراحية كبيرة",
+        "يمكن دمجها مع شفط الدهون بالفيزر"
+      ],
+      "benefitsEn": [
+        "Instant skin contraction and tightening",
+        "No large surgical scars",
+        "Can be combined seamlessly with Vaser Lipo"
+      ],
+      "metaTitle": "شد الجلد بالجي بلازما J-Plasma في مصر | د. باسم زكي",
+      "metaDescription": "شد الترهلات بدون جراحة باستخدام تقنية الجي بلازما الباردة مع أ.د. باسم زكي.",
+      "focusKeywords": "جي بلازما, J-Plasma مصر, شد الترهلات بدون جراحة",
+      "faqs": []
+    },
+    {
+      "id": "mommy-makeover",
+      "slug": "mommy-makeover",
+      "categorySlug": "body-sculpting",
+      "title": "برنامج مامي ميك أوفر (Mommy Makeover)",
+      "titleEn": "Mommy Makeover Program",
+      "image": "/Photos/6.jpeg",
+      "shortDescription": "مجموعة إجراءات متكاملة لاستعادة قوام وشباب جسم الأم بعد رحلة الحمل والولادة والرضاعة.",
+      "shortDescriptionEn": "Comprehensive procedure combination restoring pre-pregnancy body contours, abdomen, and breasts.",
+      "fullDescription": "يجمع برنامج مامي ميك أوفر بين عمليات شد البطن، شفط الدهون بالفيزر، وتجميل الثدي (رفع أو تكبير) في مرحلة واحدة لتوفير الوقت وتحقيق التناسق الشامل.",
+      "fullDescriptionEn": "Mommy Makeover combines Tummy Tuck, Vaser Liposuction, and Breast Augmentation/Lift into a single tailored procedure to restore youthful pre-pregnancy contours.",
+      "benefits": [
+        "استعادة قوام ما قبل الحمل والولادة",
+        "إجراء متكامل يوفر وقت العملية والتعافي",
+        "تنسيق الثدي والبطن في خطة علاجية واحدة"
+      ],
+      "benefitsEn": [
+        "Complete restoration of pre-pregnancy aesthetic silhouette",
+        "Combined procedure saving time and recovery period",
+        "Harmonized breast and abdominal contouring"
+      ],
+      "metaTitle": "عمليات مامي ميك اوفر Mommy Makeover مصر | د. باسم زكي",
+      "metaDescription": "استعيدي جمال قوامك ورشاقتك بعد الولادة مع برنامج Mommy Makeover المخصص تحت إشراف أ.د. باسم زكي.",
+      "focusKeywords": "Mommy Makeover, مامي ميك اوفر, استعادة القوام بعد الولادة",
+      "faqs": []
+    },
+    {
+      "id": "breast-augmentation",
+      "slug": "breast-augmentation",
+      "categorySlug": "breast-surgery",
+      "title": "عملية تكبير الثدي بالسيليكون",
+      "titleEn": "Silicone Breast Augmentation",
+      "image": "/Photos/1.jpeg",
+      "shortDescription": "منح الثدي الحجم الممتلئ والمظهر الطبيعي المتناسق باستخدام أفضل حشوات السيليكون الطبية المعتمدة.",
+      "shortDescriptionEn": "Achieve attractive fullness and natural cleavage with FDA-approved medical silicone implants.",
+      "fullDescription": "تتم عملية تكبير الثدي باستخدام حشوات السيليكون الطبية من أفضل الماركات العالمية المصرح بها من هيئة الغذاء والدواء (FDA). يتم اختيار الحجم والشكل (دائري أو نقطة ماء) بناءً على قياسات الجسم لرسم إطلالة متناسقة وطبيعية.",
+      "fullDescriptionEn": "Breast Augmentation utilizes premium FDA-approved silicone implants. Implants are precisely measured and selected (round or teardrop) to match your body proportions naturally.",
+      "benefits": [
+        "حشوات سيليكون آمنة ومعتمدة مع ضمان مدى الحياة",
+        "إخفاء الجرح في الثنايا الطبيعية للجلد",
+        "نتائج طبيعية ومظهر ممتلئ جذاب"
+      ],
+      "benefitsEn": [
+        "Safe, FDA-approved implants with lifetime warranty",
+        "Concealed incisions in natural skin folds",
+        "Symmetrical, highly natural breast contours"
+      ],
+      "metaTitle": "عملية تكبير الثدي بالسيليكون في مصر | أ.د. باسم زكي",
+      "metaDescription": "تكبير الثدي بأساليب آمنة وحشوات سيليكون معتمدة دولياً لتحقيق أقصى تناسق ومظهر طبيعي مع أ.د. باسم زكي.",
+      "focusKeywords": "تكبير الثدي, سيليكون الثدي, سعر سيليكون الثدي في مصر",
+      "faqs": []
+    },
+    {
+      "id": "breast-lift",
+      "slug": "breast-lift",
+      "categorySlug": "breast-surgery",
+      "title": "شد ورفع الثدي (Breast Lift)",
+      "titleEn": "Breast Lift (Mastopexy)",
+      "image": "/Photos/2.jpeg",
+      "shortDescription": "علاج هبوط وارتخاء الثدي وإعادة الحلمة والأنسجة للموقع الشبابي المتناسق.",
+      "shortDescriptionEn": "Correction of breast sagging, repositioning the nipple-areola complex to a youthful elevated position.",
+      "fullDescription": "عملية رفع الثدي (Mastopexy) تستهدف التخلص من الجلد المترهل وإعادة تشكيل أنسجة الثدي المترهلة نتيجة التغيرات الهرمونية، تقلبات الوزن، أو الرضاعة الطبيعية.",
+      "fullDescriptionEn": "Mastopexy reshapes sagging breast tissue, removes excess skin, and elevates the breasts for a firmer, youthful appearance.",
+      "benefits": [
+        "إعادة الثدي لوضعه المرفوع الجذاب",
+        "تعديل حجم وشكل الحلمة والهالة",
+        "يمكن دمجها مع حشوات السيليكون"
+      ],
+      "benefitsEn": [
+        "Elevated, perkier, and symmetrical breast position",
+        "Reshaping and resizing of the nipple-areola complex",
+        "Can be combined with silicone implants for volume"
+      ],
+      "metaTitle": "شد ورفع الثدي في مصر | دكتور باسم زكي جراحة التجميل",
+      "metaDescription": "استعيدي شباب وقوام الثدي المشدود مع جراحات رفع الثدي المتقدمة تحت إشراف أ.د. باسم زكي.",
+      "focusKeywords": "رفع الثدي, شد الثدي, جراحة تجميل الثدي",
+      "faqs": []
+    },
+    {
+      "id": "gynecomastia-treatment",
+      "slug": "gynecomastia-treatment",
+      "categorySlug": "mens-aesthetics",
+      "title": "علاج التثدي عند الرجال (Gynecomastia)",
+      "titleEn": "Male Gynecomastia Surgery",
+      "image": "/Photos/3.jpeg",
+      "shortDescription": "التخلص النهائي من بروز وتضخم الصدر لدى الرجال للحصول على صدر مشدود ومسطح.",
+      "shortDescriptionEn": "Permanent treatment for male chest enlargement, delivering a flat, masculine chest.",
+      "fullDescription": "تتم معالجة التثدي لدى الرجال بحسب نوعه (دهني أو غدي)؛ حيث يُستخدم الفيزر لإذابة الأنسجة الدهنية العميقة مع إمكانية استئصال الغدد المتضخمة من خلال فتحة صغيرة غير ملحوظة على حافة الهالة.",
+      "fullDescriptionEn": "Male Gynecomastia surgery combines Vaser liposuction for fat melting with glandular tissue excision through tiny hidden incisions to create a flat, masculine chest contour.",
+      "benefits": [
+        "صدر مفرود ومشدود بمظهر ذكوري طبيعي",
+        "فتحات جراحية دقيقة وشبه مخفية",
+        "نتائج نهائية تمنح الثقة الكاملة"
+      ],
+      "benefitsEn": [
+        "Flat, firm, and masculine chest contour",
+        "Minimal, virtually invisible incision marks",
+        "Permanent results restoring full confidence"
+      ],
+      "metaTitle": "علاج التثدي عند الرجال في مصر | أ.د. باسم زكي",
+      "metaDescription": "تخلص من التثدي لدى الرجال نهائياً بأساليب جراحية وبتقنيات الفيزر الحديثة مع أ.د. باسم زكي أستاذ جراحة التجميل.",
+      "focusKeywords": "علاج التثدي للرجال, جراحة التثدي في مصر, سعر عملية التثدي",
+      "faqs": []
+    },
+    {
+      "id": "rhinoplasty",
+      "slug": "rhinoplasty",
+      "categorySlug": "facial-rhinoplasty",
+      "title": "عملية تجميل الأنف (Rhinoplasty)",
+      "titleEn": "Rhinoplasty Nose Reshaping",
+      "image": "/services/rhinoplasty.jpg",
+      "shortDescription": "تعديل هيكل الأنف وإصلاح الانحراف وتصغير أرنبة الأنف لتحقيق التناغم التام مع ملامح الوجه.",
+      "shortDescriptionEn": "Structural nose reshaping, septum correction, and tip refinement matching facial features.",
+      "fullDescription": "عملية تجميل الأنف تدمج بين الجانب التجميلي والجانب الوظيفي، حيث يتم تعديل العظام وغضاريف للوصول إلى أنف متناسق تماماً مع ملامح الوجه وعلاج انحراف الحاجز الأنفي وصعوبات التنفس.",
+      "fullDescriptionEn": "Rhinoplasty combines aesthetic refinement with functional airway restoration, reshaping bone and cartilage to achieve perfect facial harmony.",
+      "benefits": [
+        "تناسق أنيق بين الأنف وباقي الوجه",
+        "تحسين المجرى التنفسي والوظيفة الهوائية",
+        "تقنيات الدقة المتناهية لحماية الأنسجة"
+      ],
+      "benefitsEn": [
+        "Harmonious aesthetic alignment with facial profile",
+        "Improved nasal airway and breathing function",
+        "Ultra-precise tissue-preserving techniques"
+      ],
+      "metaTitle": "تجميل الأنف في مصر | أفضل دكتور تجميل أنف د. باسم زكي",
+      "metaDescription": "احصل على أنف متناسق وجذاب مع عمليات تجميل الأنف وتعديل الحاجز الأنفي مع أ.د. باسم زكي.",
+      "focusKeywords": "تجميل الأنف, عملية الأنف مصر, Rhinoplasty دكتور تجميل",
+      "faqs": []
+    },
+    {
+      "id": "facelift-necklift",
+      "slug": "facelift-necklift",
+      "categorySlug": "facial-rhinoplasty",
+      "title": "شد الوجه والرقبة الجراحي",
+      "titleEn": "Facelift & Necklift Surgery",
+      "image": "/Photos/7.jpeg",
+      "shortDescription": "استعادة شباب الوجه وإلغاء ترهلات التجاعيد وخطوط الرقبة مع نتائج طبيعية تدوم لسنوات طويلة.",
+      "shortDescriptionEn": "Rejuvenate facial contours, eliminate neck bands and sagging skin with long-lasting natural results.",
+      "fullDescription": "تستهدف عملية شد الوجه والرقبة (Facelift & Necklift) إعادة العضلات والأنسجة العميقة لموضعها الاصلي مع إزالة الجلد الزائد دون تغيير ملامح الشخص أو إعطاء مظهر مشدود بشكل اصطناعي.",
+      "fullDescriptionEn": "Surgical Facelift & Necklift reposition deep SMAS facial muscles and remove excess skin, restoring a youthful jawline and smooth neck contour naturally.",
+      "benefits": [
+        "إخفاء خطوط وتجاعيد الوجه العميقة",
+        "شد الرقبة وتحديد خط الفك بوضوح",
+        "نتائج طبيعية تدوم لأكثر من 10 سنوات"
+      ],
+      "benefitsEn": [
+        "Elimination of deep facial folds and wrinkles",
+        "Defined jawline and smooth neck contour",
+        "Natural results lasting over 10+ years"
+      ],
+      "metaTitle": "شد الوجه والرقبة في مصر | أ.د. باسم زكي أستاذ جراحة التجميل",
+      "metaDescription": "استعد شباب وجهك ورقتك مع عمليات شد الوجه الجراحية المتقدمة تحت إشراف أ.د. باسم زكي.",
+      "focusKeywords": "شد الوجه, شد الرقبة, جراحة تجميل الوجه مصر",
+      "faqs": []
+    }
+  ],
+  "landingPages": [
+    {
+      "id": "lp-vaser-liposuction",
+      "slug": "vaser-offer",
+      "title": "عرض خاص: نحت الجسم وشفط الدهون بالفيزر 4D",
+      "titleEn": "Special Offer: 4D Vaser Liposuction & Body Sculpting",
+      "heroHeadline": "احصل على القوام المثالي الممشوق بأحدث تقنيات الفيزر ونحت العضلات",
+      "heroHeadlineEn": "Achieve Your Ideal Sculpted Body with 4D Vaser Technology",
+      "heroSubheadline": "خصم خاص لفترة محدودة على عمليات نحت القوام بالفيزر تحت إشراف أ.د. باسم زكي - أستاذ جراحة التجميل بجامعة عين شمس ورئيس مركز كايرو كوزمو.",
+      "heroSubheadlineEn": "Limited-time special offer under the supervision of Prof. Dr. Basim Zaki, Ain Shams University.",
+      "ctaText": "احجز استشارتك الآن عبر الواتساب",
+      "ctaTextEn": "Book Your Consultation via WhatsApp Now",
+      "ctaPhone": "01201134051",
+      "discountBadge": "خصم يصل إلى 20% لفترة محدودة",
+      "discountBadgeEn": "Up to 20% Off Limited Time Offer",
+      "features": [
+        "نحت تفاصيل الجسم والعضلات بدقة متناهية",
+        "بدون جراحة كبرى وبدون ألم",
+        "فترة تعافي سريعة والعودة للحياة اليومية",
+        "متابعة طبية دقيقة طوال فترة التعافي"
+      ],
+      "featuresEn": [
+        "Ultra-precise body & muscle sculpting",
+        "Minimally invasive with minimal discomfort",
+        "Rapid recovery and return to daily life",
+        "Direct post-op medical follow-up"
+      ],
+      "targetKeywords": "عرض شفط الدهون بالفيزر, خصم الفيزر مصر"
+    },
+    {
+      "id": "lp-gynecomastia",
+      "slug": "gynecomastia-offer",
+      "title": "العلاج النهائي للتثدي عند الرجال بنسبة نجاح 100%",
+      "titleEn": "Permanent Male Gynecomastia Surgery - 100% Success Rate",
+      "heroHeadline": "تخلص من التثدي واستعد ثقتك ومظهر صدرك الذكوري المشدود",
+      "heroHeadlineEn": "Eliminate Gynecomastia and Regain Your Masculine Chest",
+      "heroSubheadline": "أحدث تقنيات إزالة الدهون والأنسجة الغدية في جلسة واحدة مع أ.د. باسم زكي.",
+      "heroSubheadlineEn": "Advanced single-session fat and gland removal with Prof. Dr. Basim Zaki.",
+      "ctaText": "تحدث مع الفريق الطبي فوراً",
+      "ctaTextEn": "Chat with the Medical Team Now",
+      "ctaPhone": "01012710004",
+      "discountBadge": "استشارة مجانية عبر الواتساب",
+      "discountBadgeEn": "Free WhatsApp Consultation",
+      "features": [
+        "عملية دقيقة وبدون آثار جراحية ملحوظة",
+        "نتائج نهائية ومستمرة مدى الحياة",
+        "خروج في نفس اليوم ومتابعة مباشرة"
+      ],
+      "featuresEn": [
+        "Precise procedure with no visible scars",
+        "Permanent lifetime results",
+        "Same-day discharge & direct follow-up"
+      ],
+      "targetKeywords": "علاج التثدي للرجال مصر, سعر عملية التثدي"
+    }
+  ],
+  "beforeAfterCases": [
+    {
+      "id": "case-1",
+      "title": "نحت وتنسيق بطن بالفيزر 4D",
+      "titleEn": "4D Vaser Abdominal Sculpting",
+      "category": "body-sculpting",
+      "beforeImage": "/Photos/1.jpeg",
+      "afterImage": "/Photos/2.jpeg",
+      "description": "إذابة الدهون العميقة وإبراز خطوط عضلات البطن بعد جلسة واحدة بالفيزر.",
+      "descriptionEn": "Deep fat melting and athletic abdominal muscle definition after 1 Vaser session."
+    },
+    {
+      "id": "case-2",
+      "title": "علاج التثدي ونحت الصدر للرجال",
+      "titleEn": "Male Gynecomastia Chest Contouring",
+      "category": "mens-aesthetics",
+      "beforeImage": "/Photos/3.jpeg",
+      "afterImage": "/Photos/4.jpeg",
+      "description": "استئصال الغدد والدهون المترسبة وإعطاء مظهر مشدود ومسطح تماماً.",
+      "descriptionEn": "Gland excision and fat removal delivering a flat, masculine chest contour."
+    },
+    {
+      "id": "case-3",
+      "title": "شد البطن Tummy Tuck بعد فقدان الوزن",
+      "titleEn": "Post-Weight Loss Tummy Tuck",
+      "category": "body-sculpting",
+      "beforeImage": "/Photos/5.jpeg",
+      "afterImage": "/Photos/6.jpeg",
+      "description": "إزالة الجلد المترهل وإعادة خياطة وتقوية عضلات البطن المنفصلة.",
+      "descriptionEn": "Excision of loose sagging skin and abdominal muscle repair."
+    },
+    {
+      "id": "case-4",
+      "title": "تجميل ونحت الأنف Rhinoplasty",
+      "titleEn": "Rhinoplasty Nose Reshaping",
+      "category": "facial-rhinoplasty",
+      "beforeImage": "/Photos/7.jpeg",
+      "afterImage": "/Photos/8.jpeg",
+      "description": "تعديل هيكل الأنف وتصغير الأرنبة للحصول على تناسق طبيعي وأنيق.",
+      "descriptionEn": "Structural nose refinement and tip elevation for natural facial harmony."
+    }
+  ],
+  "bookingRequests": [
+    {
+      "id": "bk-101",
+      "patientName": "أحمد محمود سالم",
+      "phone": "01098765432",
+      "service": "شفط الدهون بالفيزر ونحت الجسم",
+      "clinicBranch": "مدينة نصر",
+      "createdAt": "2026-09-14 09:30",
+      "status": "جديد",
+      "notes": "يرغب بالاستفسار عن التكلفة الإجمالية وفترة النقاهة",
+      "source": "إعلانات جوجل"
+    },
+    {
+      "id": "bk-102",
+      "patientName": "سارة الفولي",
+      "phone": "01234567890",
+      "service": "شد البطن وإصلاح العضلات (Tummy Tuck)",
+      "clinicBranch": "مصر الجديدة",
+      "createdAt": "2026-09-13 16:45",
+      "status": "مؤكد",
+      "notes": "تم تأكيد موعد الكشف الأحد القادم 6 مساءً",
+      "source": "موقع إلكتروني"
+    },
+    {
+      "id": "bk-103",
+      "patientName": "محمد عبد العزيز",
+      "phone": "01122334455",
+      "service": "علاج التثدي عند الرجال (Gynecomastia)",
+      "clinicBranch": "الدقي",
+      "createdAt": "2026-09-12 11:15",
+      "status": "تم التواصل",
+      "notes": "تم إرسال تفاصيل العملية والتحاليل عبر الواتساب",
+      "source": "واتساب مباشر"
+    }
+  ],
+  "customerMessages": [
+    {
+      "id": "msg-201",
+      "senderName": "داليا علي",
+      "phone": "01211223344",
+      "email": "dalia.ali@gmail.com",
+      "subject": "استفسار عن عملية تكبير الثدي بالسيليكون",
+      "message": "مرحباً، أود معرفة الماركات المتاحة لحشوات السيليكون ومواعيد الكشف في فرع الدقي.",
+      "createdAt": "2026-09-14 08:20",
+      "isRead": false,
+      "repliedViaWhatsapp": false
+    },
+    {
+      "id": "msg-202",
+      "senderName": "خالد الشريف",
+      "phone": "01055667788",
+      "email": "khaled.elshereef@yahoo.com",
+      "subject": "علاج انحراف الأنف",
+      "message": "هل العملية تعالج صعوبة التنفس والانحراف الظاهري في نفس الوقت؟",
+      "createdAt": "2026-09-13 14:10",
+      "isRead": true,
+      "repliedViaWhatsapp": true
+    }
+  ],
+  "medicalCenters": [
+    {
+      "id": "mc-1",
+      "name": "مركز كايرو كوزمو سنتر (Cairo Cosmo Center)",
+      "nameEn": "Cairo Cosmo Center",
+      "role": "رئيس مجلس الإدارة واستشاري التجميل الرئيسي",
+      "roleEn": "Chairman & Lead Plastic Surgery Consultant",
+      "type": "رئاسة وإدارة",
+      "typeEn": "Leadership & Management",
+      "description": "المركز التخصصي الأبرز المجهز بأحدث أجهزة الفيزر 4D والجي بلازما لنحت القوام وتجميل الوجه والثدي.",
+      "descriptionEn": "Premier aesthetic center equipped with state-of-the-art 4D Vaser & J-Plasma for body sculpting and facial aesthetics.",
+      "location": "القاهرة الكبرى",
+      "locationEn": "Greater Cairo"
+    },
+    {
+      "id": "mc-2",
+      "name": "مستشفيات كلية الطب - جامعة عين شمس",
+      "nameEn": "Ain Shams University Hospitals & Faculty of Medicine",
+      "role": "أستاذ جراحة التجميل والإصلاح",
+      "roleEn": "Professor of Plastic & Reconstructive Surgery",
+      "type": "صرح أكاديمي",
+      "typeEn": "Academic Institution",
+      "description": "المؤسسة الأكاديمية العريقة لتدريس جراحة التجميل وإجراء الجراحات المتقدمة المعقدة والبحث العلمي.",
+      "descriptionEn": "Prestigious academic institution for teaching plastic surgery, supervising dissertations, and performing complex surgeries.",
+      "location": "العباسية - القاهرة",
+      "locationEn": "Abbassia - Cairo"
+    },
+    {
+      "id": "mc-3",
+      "name": "مركز فاسكوديرم (Vascuderm Clinic)",
+      "nameEn": "Vascuderm Clinic",
+      "role": "استشاري جراحات نحت القوام بالفيزر والتجميل",
+      "roleEn": "Consultant of Vaser Body Sculpting & Aesthetic Surgery",
+      "type": "مركز تخصصي",
+      "typeEn": "Specialized Center",
+      "description": "مركز تخصصي متقدم لنحت العضلات وعلاجات التجميل بالفيزر والأنف.",
+      "descriptionEn": "Advanced specialized center for muscle sculpting, Vaser procedures, and rhinoplasty.",
+      "location": "القاهرة",
+      "locationEn": "Cairo"
+    },
+    {
+      "id": "mc-4",
+      "name": "عيادات ديفا وجمالي (Diva & Gamaly Clinics)",
+      "nameEn": "Diva & Gamaly Clinics",
+      "role": "استشاري جراحة التجميل الزائر",
+      "roleEn": "Visiting Consultant of Plastic Surgery",
+      "type": "مركز تخصصي",
+      "typeEn": "Specialized Center",
+      "description": "فروع ومراكز متعاونة لتقديم الاستشارات الطبية وإجراء العمليات التجميلية بكبرى المحافظات.",
+      "descriptionEn": "Partner clinics providing expert consultations and surgeries across major governorates.",
+      "location": "الدقي، مصر الجديدة، والمحافظات",
+      "locationEn": "Dokki, Heliopolis & Major Governorates"
+    }
+  ],
+  "analytics": {
+    "totalVisitsMonth": 14250,
+    "totalBookingsMonth": 184,
+    "googleAdsConversions": 112,
+    "organicSeoConversions": 48,
+    "whatsappInquiries": 340,
+    "topServices": [
+      {
+        "name": "شفط الدهون بالفيزر ونحت الجسم",
+        "count": 68
+      },
+      {
+        "name": "علاج التثدي عند الرجال",
+        "count": 42
+      },
+      {
+        "name": "شد البطن Tummy Tuck",
+        "count": 35
+      },
+      {
+        "name": "تجميل الأنف Rhinoplasty",
+        "count": 24
+      }
+    ]
+  }
+}
